@@ -1,0 +1,67 @@
+Data Source:
+
+https://www.kaggle.com/datasets/meetnagadia/netflix-stock-price-data-set-20022022
+
+We will use historical stock price data for Netflix to train and test machine learning models. The data consists of the following columns:
+
+Date: The date of the stock price
+
+Open: The opening price of the stock on that day
+
+High: The highest price of the stock on that day
+
+Low: The lowest price of the stock on that day
+
+Close: The closing price of the stock on that day
+
+Adj Close: The adjusted closing price of the stock on that day. ‘Adj Close’ is short for ‘Adjusted Closing Price’. It is the closing price of a stock adjusted for any corporate actions such as stock splits, dividends, and rights offerings that occurred after the market close of the previous trading day.
+
+Volume: The trading volume of the stock on that day. In the context of stock trading, ‘Volume’ refers to the total number of shares of a particular stock that were traded on a given day. It is a measure of the level of activity in the stock market for that stock.
+
+Here is an example of the first few rows of the data:
+
+Date Open High Low Close Adj Close Volume
+
+0 2018–02–05 262.000000 267.899994 250.029999 254.259995 254.259995 11896100
+
+1 2018–02–06 247.699997 266.700012 245.000000 265.720001 265.720001 12595800
+
+2 2018–02–07 266.579987 272.450012 264.329987 264.559998 264.559998 8981500
+
+3 2018–02–08 267.079987 267.619995 250.000000 250.100006 250.100006 9306700
+
+4 2018–02–09 253.850006 255.800003 236.110001 249.470001 249.470001 16906900
+
+The Date column contains the date of the stock price in the format YYYY-MM-DD. The Open, High, Low, Close, and Adj Close columns contain the opening, highest, lowest, closing, and adjusted closing prices of the stock on that day, respectively. The Volume column contains the trading volume of the stock on that day.
+
+Sure, let’s continue.
+
+Next, we’ll explore the columns of the dataset:
+
+Date: The date of the stock price data.
+
+Open: The opening stock price of Netflix on that day.
+
+High: The highest stock price of Netflix on that day.
+
+Low: The lowest stock price of Netflix on that day.
+
+Close: The closing stock price of Netflix on that day.
+
+Adj Close: The adjusted closing stock price of Netflix on that day.
+
+Volume: The volume of Netflix stocks traded on that day.
+
+These columns will be used in our prediction model to determine the future stock price of Netflix.
+
+Input and Out columns:
+
+In this case, we want to predict the future stock price of Netflix. So, we will use the ‘Close’ column as our output label or target variable. We will use the other columns, ‘Open’, ‘High’, ‘Low’, ‘Adj Close’ and ‘Volume’ as our input features.
+
+Why Close column as a label?
+
+The ‘Close’ price of a stock is the final price at which it is traded on a given day. It is a commonly used metric to track the performance of a stock. In this project, we are trying to predict the future stock price of Netflix, and the ‘Close’ price is the most relevant and appropriate target variable for our prediction model.
+
+Using ‘Close’ as our output label makes sense because it is the ultimate goal of any investor — to buy a stock at a lower price and sell it later at a higher price. By predicting the future ‘Close’ price of Netflix, we can make informed decisions about when to buy and sell the stock, thus maximizing our profit.
+
+Additionally, the ‘Close’ price is influenced by the ‘Open’, ‘High’, and ‘Low’ prices of the stock. Hence, by including these features in our prediction model, we can get a more accurate estimate of the future ‘Close’ price.
