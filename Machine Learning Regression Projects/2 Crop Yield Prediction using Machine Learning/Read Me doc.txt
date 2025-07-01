@@ -1,0 +1,12 @@
+You can use it as a final year project
+
+1.How to get data?
+2.How to Exploring a data
+3.Preprocessing Data
+4.Performing EDA
+5. Use column Transfromer(One hot encoding, Standardization)
+6. Train test split
+7. Training multiple models.
+8. Selection best model
+9.Creating website.
+Model integration with website
