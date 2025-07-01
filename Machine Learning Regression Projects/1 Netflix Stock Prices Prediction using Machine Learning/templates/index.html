@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body style="background-color: black;color:white">
+   
+    <div class="container">
+        <div class="text-center">Netflix Stock Price Prediction</div>
+        <form action="/predict" method="post">
+            <div class="row">
+                <div class="form-group">
+                    <label for="Open">Open</label>
+                    <input type="number" class="form-control" id="Open" name="Open" step="0.01" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="High">High</label>
+                    <input type="number" class="form-control" id="High" name="High" step="0.01" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="Low">Low</label>
+                    <input type="number" class="form-control" id="Low" name="Low" step="0.01" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="Adj_Close">Adj_Close</label>
+                    <input type="number" class="form-control" id="Adj_Close" name="Adj_Close" step="0.01" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="Volume">Volume</label>
+                    <input type="number" class="form-control" id="Volume" name="Volume" step="0.01" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="year">year</label>
+                    <input type="number" class="form-control" id="year" name="year" step="0.01" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="month">month</label>
+                    <input type="number" class="form-control" id="month" name="month" step="0.01" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="day">day</label>
+                    <input type="number" class="form-control" id="day" name="day" step="0.01" value="0">
+                </div>
+            </div>
+
+
+            <button style="margin-left:35%;margin-top:20px" type="submit" class="btn btn-primary btn-lg">Prediction</button>
+            <p style="border:3px solid red; color:white">{{output}}</p>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
