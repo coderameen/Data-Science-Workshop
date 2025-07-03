@@ -1,0 +1,5 @@
+1. Netflix Stock Price Dataset:
+
+https://www.kaggle.com/datasets/ameenhasan/netflix-stock-price-detection-dataset-analysis
+
+
