@@ -2,4 +2,5 @@
 
 https://www.kaggle.com/datasets/ameenhasan/netflix-stock-price-detection-dataset-analysis
 
-
+NOTE: You can find all of the dataset in my Kaggle account:
+https://www.kaggle.com/ameenhasan
