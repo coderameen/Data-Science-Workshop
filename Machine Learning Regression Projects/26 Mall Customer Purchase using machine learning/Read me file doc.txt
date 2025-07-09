@@ -1,0 +1,2 @@
+If dataset is not downloading you can download from below link:
+https://www.kaggle.com/code/ameenhasan/mall-customer-prediction-model
