@@ -1,7 +1,7 @@
 # Data-Science-Workshop
-Sl No.	Topics
-1	Recommendation Introduction/Flask Python
-2	Hands on Implementation
+Sl No.	Topics \n
+1	Recommendation Introduction/Flask Python \n
+2	Hands on Implementation \n
 3	Recommendation System Projects
 -----------------AI ML-----------------	
 1	ML Intro | Practical | Algo Intro
