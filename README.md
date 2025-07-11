@@ -4,7 +4,8 @@ Sl No.	Topics
 1	Recommendation Introduction/Flask Python
 
 
-2	Hands on Implementation \n
+2	Hands on Implementation
+
 3	Recommendation System Projects
 -----------------AI ML-----------------	
 1	ML Intro | Practical | Algo Intro
