@@ -5,7 +5,7 @@ Sl No.	Topics
 
 
 2	Hands on Implementation
-
+have
 3	Recommendation System Projects
 -----------------AI ML-----------------	
 1	ML Intro | Practical | Algo Intro.
