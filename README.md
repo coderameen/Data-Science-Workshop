@@ -3,7 +3,7 @@ Sl No.	Topics
 
 1	Recommendation Introduction/Flask Python
 
-
+as
 2	Hands on Implementation
 have
 3	Recommendation System Projects
